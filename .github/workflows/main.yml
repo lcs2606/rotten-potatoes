@@ -25,7 +25,7 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags: 
+          tags: |
             lcs2606/rotten-potatoes:latest
-            lcs2606/rotten-potatoes:${{ github.run_number }}
+            lcs2606/rotten-potatoes:${{ github.run_number }} |
 
